@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kingsman Barbearia</title>
+<link rel="icon" href="icon.ico" type="image/x-icon"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</head>
+<body>
+	<header id="home">
+		<div id="nav-bar">
+			<div id="menuresponsivo">
+				<img class="imgmenu" src="menu.svg" onclick="abrir()" width="30">
+				<div id="lateral">
+					<h1 class="xis" onclick="fechar()">X</h1>
+					<nav id="menu-lateral">
+						<a class="scroll-resp" href="#home" onclick="fechar()">HOME</a>
+						<a class="scroll-resp" href="#sobre" onclick="fechar()">SOBRE</a>
+						<a class="scroll-resp" href="#espaco" onclick="fechar()">NOSSO ESPAÇO</a>
+						<a class="scroll-resp" href="#depoimento" onclick="fechar()">DEPOIMENTOS</a>
+						<a class="scroll-resp" href="#contato" onclick="fechar()">CONTATO</a>
+					</nav>
+				</div>
+			</div>
+			<a href="#home" class="scroll">
+				<img class="logo" src="logo.svg" width="180">
+			</a>
+			<nav>
+				<a class="scroll" href="#home">HOME</a>
+				<a class="scroll" href="#sobre">SOBRE</a>
+				<a class="scroll" href="#espaco">NOSSO ESPAÇO</a>
+				<a class="scroll" href="#depoimento">DEPOIMENTOS</a>
+				<a class="scroll" href="#contato">CONTATO</a>
+			</nav>
+			<div id=faixa></div>
+		</div>
+		<div id="texto-header">
+			<h1 class="titulo">CONHEÇA NOSSO ESPAÇO!</h1>
+			<p class="subtitulo">A Kingsman oferece um ambiente calmo, confortável e descontraído.</p>
+		</div>
+		<div class="faixafixa"></div>
+	</header>
+	<section id="sobre">
+		<h1 class="titlesobre">A Barbearia</h1>
+		<p class="paragrafosobre">
+			A Barbearia Kingsman tem como diferencial a estética antiga e oldschool das barbearias de antigamente, tendo esse approach como seu principal argumento. Um ambiente mais rústico e informal para os empregados e seus clientes que podem desfrutar de serviços dos mais variados, como Dia do Noive, Dia de Rei e Despedida de Solteiros; além disso o estabelecimento oferece produtos não usuais para salões de beleza, como bilhar e venda de bebidas alcoólicas.
+		</p>
+	</section>
+	<section id="espaco">
+		<h1 class="titlespaco">Nosso Espaço</h1>
+		<div class="galeria">
+			<img src="imagens/espaco/espaco1.jpg"/>
+			<img src="imagens/espaco/espaco2.jpg"/>
+			<img src="imagens/espaco/espaco3.jpg"/>
+			<img src="imagens/espaco/espaco4.jpg"/>
+			<img src="imagens/espaco/espaco5.jpg"/>
+			<img src="imagens/espaco/espaco6.jpg"/>
+		</div>
+	</section>
+	<section id="depoimento">
+		<h1 class="titledepoimento">Depoimentos</h1>
+		<div class="depoimentos">
+			<div class="depoimento">
+				<img class="imagemdepoimento" src="imagens/dpoim1.jpg" width="300">
+				<p class="textodepoimento">"Ótimo atendimento, gostei muito do ambiente e me senti muito confortável."</p>
+				<h1 class="nome-depoimento">Moisés Cleiton</h1>
+			</div>
+			<div class="depoimento">
+				<img class="imagemdepoimento" src="imagens/dpoim2.jpg" width="300">
+				<p class="textodepoimento">"Qualidade de serviço muito boa, me senti em casa, um lugar incrível."</p>
+				<h1 class="nome-depoimento">Felipe Cardoso</h1>
+			</div>
+			<div class="depoimento">
+				<img class="imagemdepoimento" src="imagens/dpoim3.jpg" width="300">
+				<p class="textodepoimento">"Na Kingsman posso me divertir com meus amigos e ainda beber uma cerveja."</p>
+				<h1 class="nome-depoimento">Everton Andrade</h1>
+			</div>
+			<div class="depoimento">
+				<img class="imagemdepoimento" src="imagens/dpoim4.jpg" width="300">
+				<p class="textodepoimento">"Um lugar divertido, muito mais que uma barbearia comum. Realmente um lugar para Reis."</p>
+				<h1 class="nome-depoimento">José Renato</h1>
+			</div>
+		</div>
+	</section>
+	<section id="contato">
+		<h1 class="titlecontato">Contato</h1>
+		<h1 class="subtitulo-contato">Entre em contato conosco!</h1>
+		<div id="espacoscontatos">
+			<div class="espacoum">
+					<h1 class="titulo-agendamento">Agendamento de Horário</h1>
+					<p class="p-agendamento">Preencha o formulário abaixo e agende seu corte!</p>
+					<form class="agendamento">
+						<input class="itemform" type="name" placeholder="Nome">
+						<input class="itemform" type="tel" placeholder="Telefone">
+						<input class="itemform" type="e-mail" placeholder="E-mail">
+						<input class="itemform" type="date" placeholder="E-mail">
+							<select>
+								<option value="08:00">08:00</option>
+								<option value="08:00">09:00</option>
+								<option value="08:00">10:00</option>
+								<option value="08:00">11:00</option>
+								<option value="08:00">13:00</option>
+								<option value="08:00">14:00</option>
+								<option value="08:00">15:00</option>
+								<option value="08:00">16:00</option>
+								<option value="08:00">17:00</option>
+							</select>
+							<button type="submit" class="button-enviar">Agendar</button>
+					</form>
+			</div>
+			<div class="espacodois">
+					<h1 class="titulo-agendamento">Fale conosco!</h1>
+					<p class="p-agendamento">Alguma dúvida ou sugestão? Envie-nos uma mensagem!</p>
+					<form class="agendamento">
+							<input class="itemform" type="name" placeholder="Nome">
+							<input class="itemform" type="tel" placeholder="Telefone">
+							<input class="itemform" type="e-mail" placeholder="E-mail">
+							<textarea class="textocontato"></textarea>
+							<button type="submit" class="button-enviar">Enviar</button>
+					</form>	
+			</div>
+		</div>
+		<div class="espacotres">
+				<div id="map" style="width:100%;height:700px;"></div>
+		</div>
+	</section>
+	<footer>
+		<div class="faixafooter"></div>
+		<a href="#home" class="scroll">
+			<img class="logofooter" src="logo.svg" width="140">
+		</a>
+		<a href="https://www.facebook.com/barbeariakingsman" target="_blank">
+			<img class="facebookicon" src="imagens/icons/facebook-logo.svg" width="30">
+		</a>
+		<h1 class="plocalizacao">Av. Ernani Amaral Peixoto<br><span>º675 - Niterói, RJ</span></h1>
+	<script src="javasvript.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbxNEae48TgDVYahThmlDvK9pZ-iMTC3M&callback=initMap"></script>
+</body>
+</html>
