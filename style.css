@@ -210,7 +210,7 @@ nav {
 	font-size: 50px;
 	font-weight: 500;
 	position: relative;
-	top:30%;
+	top:20%;
 }
 
 .titlesobre::before {
@@ -244,7 +244,7 @@ nav {
 	font-family: montserrat;
 	font-size: 20px;
 	position: relative;
-	top: 35%;
+	top: 25%;
 	line-height: 25px;
 	text-indent: 1.5em;
 }
@@ -263,7 +263,7 @@ nav {
 	text-align: center;
 	font-size: 50px;
 	font-weight: 500;
-	padding-top: 170px;
+	padding-top: 80px;
 }
 
 .galeria {
@@ -292,7 +292,7 @@ nav {
 	text-align: center;
 	font-size: 50px;
 	font-weight: 500;
-	padding-top: 170px;
+	padding-top: 80px;
 }
 
 .depoimentos {
@@ -349,8 +349,6 @@ nav {
 	font-size: 20px;
 	color: #25375b;
 }
-
-
 #contato {
 	width: 100%;
 	height: auto;
@@ -364,7 +362,7 @@ nav {
 	text-align: center;
 	font-size: 50px;
 	font-weight: 500;
-	padding-top: 170px;
+	padding-top: 80px;
 }
 
 .subtitulo-contato {
