@@ -379,24 +379,19 @@ nav {
 #espacoscontatos {
 	height: 500px;
 	width: 100%;
-	margin: 40px auto auto auto;
-	display: block;
+	margin-top: 40px;
 }
 
 .espacoum {
-	width: 40%;
+	width: 50%;
 	height: 100%;
 	float: left;
-	position: relative;
-	left: 10%;
 }
 
 .espacodois {
-	width: 40%;
+	width: 50%;
 	height: 100%;
 	float: right;
-	position: relative;
-	right: 10%;
 }
 
 .espacotres {
